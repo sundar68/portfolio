@@ -1,0 +1,23 @@
+
+  a.social {
+   
+    transition: transform 250ms;
+    display: inline-block;
+  }
+  a.social:hover {
+    transform: translateY(-2px);
+  }
+  a.facebook:hover {
+    color: #3e64b4;
+  }
+  
+  a.twitter:hover {
+    color: #1d9b2e;
+  }
+  a.linkedin:hover {
+    color: #0e68a5;
+  }
+  
+  a.instagram:hover {
+    color: rgb(228, 21, 124);
+  }
