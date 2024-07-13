@@ -13,7 +13,7 @@ class About extends Component {
             <h2 className="abouthead"> <mark className="mark2">KEERTHI SATYA SAI SUNDAR</mark></h2>
             <p>Front-end Developer</p>
             <br></br>
-            <p className="p10">I am currently enrolled as a senior in the <b>National Institute of Technology Silchar </b>pursuing an undergraduate degree. I am majoring in Computer science and engineering. I am interested in the Web Development field and am seeking exciting opportunities related to the same. I am always curious about things and enjoy learning. I like to solve problems and fix errors. I am a detail orientated person and I keep my goals and tasks organized to maintain productivity. I believe that the skills that I have attained from the dynamic environment and competitive university life define me and I am looking forward to implementing and polishing them in any opportunity that I receive.
+            <p className="p10">I am currently working as MTS at VYMO. I completed my education at <b>National Institute of Technology Silchar </b>. I am interested in the Web Development field and am seeking exciting opportunities related to the same. I am always curious about things and enjoy learning. I like to solve problems and fix errors. I am a detail orientated person and I keep my goals and tasks organized to maintain productivity. I believe that the skills that I have attained from the dynamic environment and competitive university life define me and I am looking forward to implementing and polishing them in any opportunity that I receive.
             </p>
             <a href={pdf} target="_blank" rel="noreferrer">
               <div className="back5"><i class="fa fa-download"></i> Resume</div>
