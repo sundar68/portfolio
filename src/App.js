@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { ThemeProvider, createGlobalStyle } from "styled-components";
 import "./App.css";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { HashRouter as Router, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./contents/Home";
 import About from "./contents/About";
@@ -110,21 +110,24 @@ function App() {
               <Cont />
             </Route>
             <div
-              class="back1"
-              onClick={(e) =>
+              className="back1"
+              onClick={() =>
                 setTheme(
                   theme.mode === "dark" ? { mode: "light" } : { mode: "dark" }
                 )
               }
             >
               <i
-                class={theme.mode === "dark" ? "fa fa-sun-o" : "fa fa-adjust"} style={style}
+                className={theme.mode === "dark" ? "fa fa-sun-o" : "fa fa-adjust"}
+                style={style}
               ></i>
             </div>
           </div>
         </Router>
-        <p className="vk" ><i class="fa fa-copyright"></i>by Satya Sai Sundar{" "}<i class="fa fa-user-circle-o"></i></p>
-        
+        <p className="vk">
+          <i className="fa fa-copyright"></i>by Satya Sai Sundar{" "}
+          <i className="fa fa-user-circle-o"></i>
+        </p>
       </>
     </ThemeProvider>
   );
